@@ -5,7 +5,7 @@ create table employee_payroll
 
 insert into employee_payroll values
 (
-'Vaibhav',1000000,'10/10/2010'
+'Ram',1000000,'10/10/2010'
 );
 
 
@@ -21,7 +21,7 @@ select * from employee_payroll;
 
 
 
-select salary from employee_payroll where name='Vaibhav';
+select salary from employee_payroll where name='Ram';
 
 
 
