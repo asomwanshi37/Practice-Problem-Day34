@@ -3,12 +3,12 @@ create table AddressBook
 
 insert into AddressBook
 values
-('Vaibhav','Aher','Ram Society','Pune','Maharashtra',431115,783489342)
+('Akshay','Somwanshi','Sivam Residency','Pune','Maharashtra',412101,9823023518)
 
-update AddressBook set phone=8937832
-where fname='Vaibhav';
+update AddressBook set phone=897587125
+where fname='Akshay';
 
-delete AddressBook where fname='Vaibhav';
+delete AddressBook where fname='Akshay';
 
 select * from AddressBook where city='Pune' or state='Goa';
 
@@ -21,6 +21,6 @@ add type varchar(20) default 'NA',name varchar(20) default 'NA';
 
 select count(type) from AddressBook;
 
-update AddressBook set type='Family' where fname='Vaibhav';
+update AddressBook set type='Family' where fname='Akshay';
 
 select * from AddressBook;
