@@ -5,14 +5,14 @@ create table employee_payroll
 
 insert into employee_payroll values
 (
-'Vaibhav',1000000,'10/10/2010'
+'Akshay',1200000,'15/11/2009'
 );
 
 
 
 insert into employee_payroll values
 (
-'Amol',2000000,'11/10/2010'
+'Amol',2800000,'11/11/2010'
 );
 
 
@@ -21,12 +21,12 @@ select * from employee_payroll;
 
 
 
-select salary from employee_payroll where name='Vaibhav';
+select salary from employee_payroll where name='Akshay';
 
 
 
 select * from employee_payroll 
-where startDate='11/10/2010';
+where startDate='11/11/2010';
 
 
 
